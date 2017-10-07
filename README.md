@@ -28,3 +28,9 @@ Languages:
 My Practice:
 - [Playing around with a penetrable system](https://github.com/williej/Metasploit)
 - [C Language R and K Exercises](https://github.com/Bazarovay/the_c_programming_language)
+
+
+### Books I plan on going through:
+- All in one CISSP Exam
+- Violent Python
+- Hacker Playbook 2
