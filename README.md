@@ -58,5 +58,6 @@ I am still not sure what sort of skills I need so this warplan will be prone to 
   - open multiple files and then moving around with :prev, :n
   - _<_ to indent blocks
   - Copying lines and pasting
-  
-  
+  - Using vim is forcing me to spend more time on terminal, making me more comfortable with common terminal commands
+
+-  [Networks - python tcp,udp,server script](https://github.com/Bazarovay/cybersecurity-warplan/black_hat_python/network_basic)
