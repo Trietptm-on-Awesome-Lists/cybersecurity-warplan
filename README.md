@@ -56,7 +56,7 @@ I am still not sure what sort of skills I need so this warplan will be prone to 
 
 ## Hands-on Practice:
 - [Playing around with a penetrable system](https://github.com/williej/Metasploit)
-
+- Problem solving practice
 
 ### Books I plan on going through:
 - [] Black Hat Python _In progress_
