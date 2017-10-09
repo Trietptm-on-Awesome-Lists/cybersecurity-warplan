@@ -31,16 +31,16 @@ I am still not sure what sort of skills I need so this warplan will be prone to 
 - Newbie setup: Vmware/virtual box, metasploit,kali
 
 ## Getting an idea
-- [] [Security Principles and Basic Foundation](https://www.lynda.com/learning-paths/IT/become-an-it-security-specialist)
-- [] [Overview of tools, jargon](https://www.lynda.com/learning-paths/IT/become-an-ethical-hacker)
+- [ ] [Security Principles and Basic Foundation](https://www.lynda.com/learning-paths/IT/become-an-it-security-specialist)
+- [ ] [Overview of tools, jargon](https://www.lynda.com/learning-paths/IT/become-an-ethical-hacker)
 
 ## Networks:
-- [] [Comtiaa Course on Lynda](https://www.lynda.com/Network-tutorials/CompTIA-Network-Exam-Prep-N10-006-Part-3-World-TCPIP/414773-2.html)
-- Packet Guide To Core Network Protocol
-- Eli The Computer Guy
+- [ ] [Comtiaa Course on Lynda](https://www.lynda.com/Network-tutorials/CompTIA-Network-Exam-Prep-N10-006-Part-3-World-TCPIP/414773-2.html)
+- [ ] Packet Guide To Core Network Protocol _in progress_
+- [ ] Eli The Computer Guy
 
 ## System Admin:
-- [] [Linux Lynda](https://www.lynda.com/learning-paths/IT/prepare-for-the-lpic-1-and-comptia-linux-certifications)
+- [ ] [Linux Lynda](https://www.lynda.com/learning-paths/IT/prepare-for-the-lpic-1-and-comptia-linux-certifications)
 
 
 ## Operating System Base:
@@ -59,10 +59,10 @@ I am still not sure what sort of skills I need so this warplan will be prone to 
 - Problem solving practice
 
 ### Books I plan on going through:
-- [] Black Hat Python _In progress_
-- [] All in one CISSP Exam
-- [] Violent Python
-- [] Hacker Playbook 2
+- [ ] Black Hat Python _In progress_
+- [ ] All in one CISSP Exam
+- [ ] Violent Python
+- [ ] Hacker Playbook 2
 
 ### Day 0:
 - Checked out **Nmap**. Some of the commands. Started with black hat python book.
