@@ -79,3 +79,10 @@ I am still not sure what sort of skills I need so this warplan will be prone to 
   - Using vim is forcing me to spend more time on terminal, making me more comfortable with common terminal commands
 
 -  [Networks - python tcp,udp,server script](https://github.com/Bazarovay/cybersecurity-warplan/black_hat_python/network_basic)
+
+
+### Day 2:
+- Tower of Hanoi and other recursion problems
+
+### Day 3:
+- Cryptography
