@@ -47,6 +47,20 @@ I am still not sure what sort of skills I need so this warplan will be prone to 
 - [Linux-insides](https://0xax.gitbooks.io/linux-insides/content/index.html) Just randomly picked up this book
 - Linux Bible
 
+## General:
+
+### Cryptography
+   - Basic principles,One Time Pad, Double Transposition etc
+   - Symmetric Key Algorithm
+      - Block Ciphers
+         - [DES](https://www.youtube.com/watch?v=G_guTnTcoqg)
+         - [AES](https://www.youtube.com/watch?v=ZhILF5Dhx74)
+      - Stream Ciphers
+         - [A5/1](https://www.youtube.com/watch?v=1GoP_HfF_v4)
+         - [RC4](https://www.youtube.com/watch?v=riIp6EQOJOg)
+- Resources:
+   [Mark Stamp information security principles and Practice chapter 3](https://www.amazon.com/Information-Security-Principles-Mark-Stamp/dp/0470626399)
+   
 ## Coding/Scripting/Programming:
 - [C](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
   - [C Language R and K Exercises](https://github.com/Bazarovay/the_c_programming_language)
@@ -64,6 +78,9 @@ I am still not sure what sort of skills I need so this warplan will be prone to 
 - [ ] Violent Python
 - [ ] Hacker Playbook 2
 
+
+## Daily Progress
+
 ### Day 0:
 - Checked out **Nmap**. Some of the commands. Started with black hat python book.
 
@@ -79,3 +96,20 @@ I am still not sure what sort of skills I need so this warplan will be prone to 
   - Using vim is forcing me to spend more time on terminal, making me more comfortable with common terminal commands
 
 -  [Networks - python tcp,udp,server script](https://github.com/Bazarovay/cybersecurity-warplan/black_hat_python/network_basic)
+
+
+### Day 2:
+- Tower of Hanoi and other recursion problems
+
+### Day 3:
+- Cryptography _Add more detail, and move outside Daily Plan_
+   - Basic principles,One Time Pad, Double Transposition etc
+   - Symmetric Key Algorithm
+      - Block Ciphers
+         - [DES](https://www.youtube.com/watch?v=G_guTnTcoqg)
+         - [AES](https://www.youtube.com/watch?v=ZhILF5Dhx74)
+      - Stream Ciphers
+         - [A5/1](https://www.youtube.com/watch?v=1GoP_HfF_v4)
+         - [RC4](https://www.youtube.com/watch?v=riIp6EQOJOg)
+- Resources:
+   [Mark Stamp information security principles and Practice chapter 3](https://www.amazon.com/Information-Security-Principles-Mark-Stamp/dp/0470626399)
