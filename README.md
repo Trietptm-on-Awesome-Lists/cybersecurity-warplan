@@ -32,7 +32,7 @@ I am still not sure what sort of skills I need so this warplan will be prone to 
 - [x] Get a new laptop _this 5 year oll dinosaur is on its knees_
   - https://medium.com/@securitystreak/buying-a-professional-penetration-testing-laptop-for-2017-6cd21e65dc2
   - http://seczine.com/cyber-security/2017/01/best-laptop-for-cyber-security-students-in-2017/
-  - **Update:** Decided to get a Lenovo thinkpad
+  - **Update:** _Decided to get a Lenovo 470p Thinkpad_
 
 www.sysprobs.com/best-laptop-for-hacking-hackers-it-security-professionals
 - **Set up a virtual lab** _I understand it's absolutely necessary to have a virtual lab_
@@ -82,14 +82,15 @@ www.sysprobs.com/best-laptop-for-hacking-hackers-it-security-professionals
 
 ## Hands-on Practice:
 - [Playing around with a penetrable system](https://github.com/williej/Metasploit)
+- [Metaspolaitable Walk-Thru](http://resources.infosecinstitute.com/metasploitable-2-walkthrough)
 - [Practicing with vulnerable systems](https://www.vulnhub.com)
 - Problem solving practice
 
 ### Books I plan on going through:
 - [ ] Black Hat Python _In progress_
-- [ ] All in one CISSP Exam
 - [ ] Violent Python
 - [ ] Hacker Playbook 2
+- [ ] All in one CISSP Exam
 
 
 ## [Daily Progress](https://github.com/Bazarovay/cybersecurity-warplan/daily_progress/daily_progress.md)
