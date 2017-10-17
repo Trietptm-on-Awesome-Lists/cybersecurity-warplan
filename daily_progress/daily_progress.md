@@ -1,4 +1,6 @@
 
+# This is a personal progress metric.
+
 ### Day 0:
 - Checked out **Nmap**. Some of the commands. Started with black hat python book.
 
@@ -46,3 +48,84 @@ group id (/etc/group), comment field info abt user, user home directory (default
 
 - Set up CentOS https://geekflare.com/no-internet-connection-from-vmware-with-centos-7/
 - Created users
+
+
+### Day 5: _17/10/17_
+- Between Day4 and Day5: Covered RSA, Asymmetric Crypto, Onion Routing, ARP & Routing
+Today I plan on looking into:
+- Virtual Labs tutorials
+- Data structures, O(n) etc from jwasham's repo
+- Metasploitable-2 Walkthru
+- Go over VLAN and Trunking
+
+- Virtual Lab
+- [x] Eli The Computer Guy
+ - NAT, Bridge, Internal
+ - Keep dynamic size
+ - Host to guest option
+ - clone OS if experimenting so dont have to install again if messed up
+ - boot from ISO (like CD) if need to do registry level stuff etc
+ - Different networks card, can use open source routers like pfsense
+ - Guest read from host, host shouldnt read from guest, guest cant write to host
+
+- [x] (Building A Pentesting Lab - David Boyd)[https://www.youtube.com/watch?v=b8_sOoQtALs]
+- Very Helpful
+ Pen Testing Platforms:
+ - Kali Linux
+ - Pentoo
+ - Backbox
+ - Samurai WTF(Web App Testing)
+ - Samurai STFU(Utility Hacking)
+ - Deft Linux(Forensics)
+ - People build their own distros as well
+
+ Vulnerable VMs:
+ Metasploitable-2
+ Morning Catch (Phishing)
+ OWASP BrokenWebApplications
+ WebGoat (Web Applications)
+ vulnhub.com
+ Kioptrix (for beginners)
+ PwnOS
+
+ Guides:
+ Metaspolaitable 2 Exploitability Guide
+ Introducing Morning Catch
+ Sans Mutilliadae Whitepaper
+
+ Vulnerable VMs
+ - Windows XP, Windows Server, Microsoft Exchange, Windows 7
+
+ Tools:
+ Nmap/Masscan
+ Nessus (Vulnerability Scanning)
+ Cain (ARP poisoning)
+ Responder (MiTM)
+John The Ripper (Hash Cashing)
+Metasploit (Exploits)
+SET/GoPhish/SPF
+Discover Scripts (OSINT)
+PowerShellEmpire (Powershell scripts)
+CrackMapExec (PostExploitation)
+
+Build A Domain,
+Add Users With Various Privileges
+Hacker Playbook: http://thehackerplaybook.com/Windows_Domain.htm
+
+For additional training:
+- (Metasploit Unleashed)[https://www.offensive-security.com/metasploit-unleashed/]
+- www.hackthissite.com
+- DerbyCon, DefCon, BSides, ISSA
+- Sans Cyber Aces, Infosec Institute, Cybrary
+
+
+Recommended Reading:
+- The Hacker Playbook 1 & 2
+- Penetration Testing
+- Metasploit
+- Hacking The Art of Exploitation
+- Professional Penetration Testing
+- The Art Of Intrusion
+- The Art of Deception
+- Ghost in the Wires
+- Black Hat Python
