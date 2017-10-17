@@ -29,6 +29,10 @@ I am still not sure what sort of skills I need so this warplan will be prone to 
   - _There will always be somebody more l33t than you_
 - [What is pentesting](https://www.youtube.com/watch?v=b7jW9X9UqiY)
 
+## Getting an idea
+- [ ] [Security Principles and Basic Foundation](https://www.lynda.com/learning-paths/IT/become-an-it-security-specialist)
+- [ ] [Overview of tools, jargon](https://www.lynda.com/learning-paths/IT/become-an-ethical-hacker)
+
 - [x] Get a new laptop _this 5 year oll dinosaur is on its knees_
   - https://medium.com/@securitystreak/buying-a-professional-penetration-testing-laptop-for-2017-6cd21e65dc2
   - http://seczine.com/cyber-security/2017/01/best-laptop-for-cyber-security-students-in-2017/
@@ -38,15 +42,13 @@ I am still not sure what sort of skills I need so this warplan will be prone to 
 
 - **Set up a virtual lab** _I understand it's absolutely necessary to have a virtual lab_
   - Resources on how to setup a lab
-    - [ ] [Eli The Computer Guy's Tutorial]https://www.youtube.com/watch?v=AiWRmMzwwJM
-  - [ ] Set up virtual lab
+    - [x] [Eli The Computer Guy's Tutorial]https://www.youtube.com/watch?v=AiWRmMzwwJM
+  - [x] Set up virtual lab
     - [x] Vmware/Virtual box
     - [x] Kali, Windows, Linux VMs, Metasploitable
-    - [ ] Virtual routers
+  - [ ] Working with Virtual routers
+  - [ ] (Windows Domain)[http://thehackerplaybook.com/Windows_Domain.htm]
 
-## Getting an idea
-- [ ] [Security Principles and Basic Foundation](https://www.lynda.com/learning-paths/IT/become-an-it-security-specialist)
-- [ ] [Overview of tools, jargon](https://www.lynda.com/learning-paths/IT/become-an-ethical-hacker)
 
 ## Networks:
 - [ ] [Comtiaa Course on Lynda](https://www.lynda.com/Network-tutorials/CompTIA-Network-Exam-Prep-N10-006-Part-3-World-TCPIP/414773-2.html)
@@ -54,6 +56,7 @@ I am still not sure what sort of skills I need so this warplan will be prone to 
 - [ ] Eli The Computer Guy
 
 ## System Admin:
+- Windows Active Directory
 - [ ] [Linux Lynda](https://www.lynda.com/learning-paths/IT/prepare-for-the-lpic-1-and-comptia-linux-certifications)
 
 
@@ -61,19 +64,6 @@ I am still not sure what sort of skills I need so this warplan will be prone to 
 - [Linux-insides](https://0xax.gitbooks.io/linux-insides/content/index.html) Just randomly picked up this book
 - Linux Bible
 
-## General:
-
-### Cryptography
-   - Basic principles,One Time Pad, Double Transposition etc
-   - Symmetric Key Algorithm
-      - Block Ciphers
-         - [DES](https://www.youtube.com/watch?v=G_guTnTcoqg)
-         - [AES](https://www.youtube.com/watch?v=ZhILF5Dhx74)
-      - Stream Ciphers
-         - [A5/1](https://www.youtube.com/watch?v=1GoP_HfF_v4)
-         - [RC4](https://www.youtube.com/watch?v=riIp6EQOJOg)
-- Resources:
-   [Mark Stamp information security principles and Practice chapter 3](https://www.amazon.com/Information-Security-Principles-Mark-Stamp/dp/0470626399)
 
 ## Coding/Scripting/Programming:
 - [C](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
@@ -90,11 +80,90 @@ I am still not sure what sort of skills I need so this warplan will be prone to 
     - [This includes following through on jwasham's repo](https://github.com/Bazarovay/coding-interview-university)
     - [Practice problems](https://github.com/Bazarovay/cybersecurity-warplan/tree/master/problem_solving)
 
-### Books I plan on going through:
+
+
+## Pentesting Getting Started
+_I am focusing on pentesting for now, will definitely try to cover secure software
+development, program analysis and forensices later_
+
+### Platforms for Pentesting:
+- **Kali**
+- Pentoo
+- Backbox
+- Samurai WTF(Web App Testing)
+- Samurai STFU(Utility Hacking)
+- Deft Linux(Forensics)
+
+### Vulnerable Virtual Machines:
+- Metasploitable 2
+- Morning Catch (Phishing)
+- BrokenWebApplications
+- WebGoat
+- _For challenges_
+  - vulnhub.com
+  - Kioptrix (for beginners)
+  - PwnOS
+
+### Tools
+- Nmap/Masscan
+- Nessus (Vulnerability Scanning)
+- Cain (ARP poisoning)
+- Responder (MiTM)
+- Jack The Ripper (Hash Cashing)
+- Metasploit (Exploits)
+- SET/GoPhish/SPF
+- Discover Scripts (OSINT)
+- PowerShellEmpire (Powershell scripts)
+- CrackMapExec (PostExploitation)
+
+
+
+# Resources:
+
+### Recommended Reading:
 - [ ] Black Hat Python _In progress_
 - [ ] Violent Python
-- [ ] Hacker Playbook 2
 - [ ] All in one CISSP Exam
+- [ ] The Hacker Playbook 1 & 2
+- [ ] Penetration Testing
+- [ ] Metasploit
+- [ ] Hacking The Art of Exploitation
+- [ ] Professional Penetration Testing
+- [ ] The Art Of Intrusion
+- [ ] The Art of Deception
+- [ ] Ghost in the Wires
+
+### Guides/Online Resources:
+- (Metasploit Unleashed)[https://www.offensive-security.com/metasploit-unleashed/]
+- www.hackthissite.com
+- DerbyCon, DefCon, BSides, ISSA
+- Sans Cyber Aces, Infosec Institute, Cybrary
+- Metaspolaitable 2 Exploit ability Guide
+- Introducing Morning Catch
+- Sans Mutilliadae Whitepaper
 
 
-## [Draft Pad/Blackboard](https://github.com/Bazarovay/cybersecurity-warplan/daily_progress/daily_progress.md)
+## General:
+
+### Cryptography
+   - Basic principles,One Time Pad, Double Transposition etc
+   - Symmetric Key Algorithm
+      - Block Ciphers
+         - [DES](https://www.youtube.com/watch?v=G_guTnTcoqg)
+         - [AES](https://www.youtube.com/watch?v=ZhILF5Dhx74)
+      - Stream Ciphers
+         - [A5/1](https://www.youtube.com/watch?v=1GoP_HfF_v4)
+         - [RC4](https://www.youtube.com/watch?v=riIp6EQOJOg)
+- Resources:
+   [Mark Stamp information security principles and Practice chapter 3](https://www.amazon.com/Information-Security-Principles-Mark-Stamp/dp/0470626399)
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+### [Draft Pad/Blackboard](https://github.com/Bazarovay/cybersecurity-warplan/daily_progress/daily_progress.md)
