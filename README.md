@@ -85,6 +85,7 @@ I am still not sure what sort of skills I need so this warplan will be prone to 
 ## Pentesting Getting Started
 _I am focusing on pentesting for now, will definitely try to cover secure software
 development, program analysis and forensices later_
+**Really Helpful>>** (Building A Pentesting Lab - David Boyd)[https://www.youtube.com/watch?v=b8_sOoQtALs]
 
 ### Platforms for Pentesting:
 - **Kali**
