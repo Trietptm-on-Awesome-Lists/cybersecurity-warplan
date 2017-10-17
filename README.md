@@ -85,6 +85,8 @@ www.sysprobs.com/best-laptop-for-hacking-hackers-it-security-professionals
 - [Metaspolaitable Walk-Thru](http://resources.infosecinstitute.com/metasploitable-2-walkthrough)
 - [Practicing with vulnerable systems](https://www.vulnhub.com)
 - Problem solving practice
+    - [This includes following through on jwasham's repo](https://github.com/Bazarovay/coding-interview-university)
+    - [Practice problems](https://github.com/Bazarovay/cybersecurity-warplan/tree/master/problem_solving)
 
 ### Books I plan on going through:
 - [ ] Black Hat Python _In progress_
