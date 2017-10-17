@@ -8,7 +8,7 @@ As of now I have absolutely no experience in cybersecurity! I have been involved
 
 I have decided to start learning from **absolute ZERO!**.
 
-I'll 
+I'll
 - Relearn the things I know
 - Unlearn the things I shouldn't know
 - Learn the things I ought to know
@@ -28,7 +28,19 @@ I am still not sure what sort of skills I need so this warplan will be prone to 
 - [So you think you want to be a penetration tester](https://www.youtube.com/watch?v=be7bvZkgFmY)
   - _There will always be somebody more l33t than you_
 - [What is pentesting](https://www.youtube.com/watch?v=b7jW9X9UqiY)
-- Newbie setup: Vmware/virtual box, metasploit,kali
+
+- [x] Get a new laptop _this 5 year oll dinosaur is on its knees_
+  - https://medium.com/@securitystreak/buying-a-professional-penetration-testing-laptop-for-2017-6cd21e65dc2
+  - http://seczine.com/cyber-security/2017/01/best-laptop-for-cyber-security-students-in-2017/
+  - **Update:** Decided to get a Lenovo thinkpad
+
+www.sysprobs.com/best-laptop-for-hacking-hackers-it-security-professionals
+- **Set up a virtual lab** _I understand it's absolutely necessary to have a virtual lab_
+  - [ ] Find resources about how to setup a lab
+  - [ ] Set up virtual lab
+    - [x] Vmware/Virtual box
+    - [x] Kali, Windows, Linux VMs, Metasploitable
+    - [ ] Virtual routers
 
 ## Getting an idea
 - [ ] [Security Principles and Basic Foundation](https://www.lynda.com/learning-paths/IT/become-an-it-security-specialist)
@@ -60,7 +72,7 @@ I am still not sure what sort of skills I need so this warplan will be prone to 
          - [RC4](https://www.youtube.com/watch?v=riIp6EQOJOg)
 - Resources:
    [Mark Stamp information security principles and Practice chapter 3](https://www.amazon.com/Information-Security-Principles-Mark-Stamp/dp/0470626399)
-   
+
 ## Coding/Scripting/Programming:
 - [C](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
   - [C Language R and K Exercises](https://github.com/Bazarovay/the_c_programming_language)
@@ -70,6 +82,7 @@ I am still not sure what sort of skills I need so this warplan will be prone to 
 
 ## Hands-on Practice:
 - [Playing around with a penetrable system](https://github.com/williej/Metasploit)
+- [Practicing with vulnerable systems](https://www.vulnhub.com)
 - Problem solving practice
 
 ### Books I plan on going through:
@@ -79,37 +92,4 @@ I am still not sure what sort of skills I need so this warplan will be prone to 
 - [ ] Hacker Playbook 2
 
 
-## Daily Progress
-
-### Day 0:
-- Checked out **Nmap**. Some of the commands. Started with black hat python book.
-
-### Day 1:
-- Started playing around with **vim**. Been using atom but vim seems like a better choice for scripting on servers etc. There is a learning curve. New things I found out and liked:
-  - /\c{word} _for case sensitive search_
-  - :w | !pyton file.py _to save file and run it without closing it_
-  - dd _to delete lines_
-  - _v_ to select a word and then _shift_ _v_ _Makes word upper case_
-  - open multiple files and then moving around with :prev, :n
-  - _<_ to indent blocks
-  - Copying lines and pasting
-  - Using vim is forcing me to spend more time on terminal, making me more comfortable with common terminal commands
-
--  [Networks - python tcp,udp,server script](https://github.com/Bazarovay/cybersecurity-warplan/black_hat_python/network_basic)
-
-
-### Day 2:
-- Tower of Hanoi and other recursion problems
-
-### Day 3:
-- Cryptography _Add more detail, and move outside Daily Plan_
-   - Basic principles,One Time Pad, Double Transposition etc
-   - Symmetric Key Algorithm
-      - Block Ciphers
-         - [DES](https://www.youtube.com/watch?v=G_guTnTcoqg)
-         - [AES](https://www.youtube.com/watch?v=ZhILF5Dhx74)
-      - Stream Ciphers
-         - [A5/1](https://www.youtube.com/watch?v=1GoP_HfF_v4)
-         - [RC4](https://www.youtube.com/watch?v=riIp6EQOJOg)
-- Resources:
-   [Mark Stamp information security principles and Practice chapter 3](https://www.amazon.com/Information-Security-Principles-Mark-Stamp/dp/0470626399)
+## [Daily Progress](https://github.com/Bazarovay/cybersecurity-warplan/daily_progress/daily_progress.md)
