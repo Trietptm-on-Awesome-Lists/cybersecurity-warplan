@@ -10,8 +10,26 @@ class Solution(object):
                 sum_result = nums[indice_a] + nums[indice_b]
                 if sum_result == target:
                     return [indice_a,indice_b]
-        return None
+    return None
 
+    def twoSumFaster(self, nums, target):
+    """
+    :type nums: List[int]
+    :type target: int
+    :rtype: List[int]
+    """
+    my_hash = {}
+    for a in range(0,len(nums)):
+        my_hash[nums[a]] = a
+
+    for indice_a in range(0,len(nums) - 1):
+        diff = target - nums[indice_a]
+        if diff in my_hash:
+            for indice_b in range(indice_a + 1, len(nums)):
+                if nums[indice_b] == diff:
+                    return [indice_a, indice_b]
+
+                
     def subarraySum(self, nums, k):
         """
         :type nums: List[int]
