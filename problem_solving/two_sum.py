@@ -1,6 +1,7 @@
 class Solution(object):
     def twoSum(self, nums, target):
         """
+        O(N^2)
         :type nums: List[int]
         :type target: int
         :rtype: List[int]
@@ -14,6 +15,10 @@ class Solution(object):
 
     def twoSumFaster(self, nums, target):
     """
+    O(N) for hash
+    O(1) for each search so O(N) complement searches
+    O(N) for the loop.
+    so O(2N) which means O(N)
     :type nums: List[int]
     :type target: int
     :rtype: List[int]
