@@ -37,8 +37,7 @@ def twoSumFaster(nums, target):
                   return [indice_a, indice_b]
 
                 
-          
-          
+# 17-1-18
 def judgeCircle(self, moves):
     """
     :type moves: str
@@ -55,3 +54,23 @@ def judgeCircle(self, moves):
             is_round = False
 
     return is_round
+
+def selfDividingNumbers(self, left, right):
+  """
+  :type left: int
+  :type right: int
+  :rtype: List[int]
+  """
+  list_of_self_div = []
+  for number in range(left, right + 1):
+      str_number = str(number)
+      if "0" not in str_number:
+          is_self_div = True
+          for digit in str_number:
+              if number % int(digit) != 0:
+                  is_self_div = False
+
+          if is_self_div:
+              list_of_self_div.append(number)
+
+  return list_of_self_div
