@@ -35,3 +35,23 @@ def twoSumFaster(nums, target):
           for indice_b in range(indice_a + 1, len(nums)):
               if nums[indice_b] == diff:
                   return [indice_a, indice_b]
+
+                
+          
+          
+def judgeCircle(self, moves):
+    """
+    :type moves: str
+    :rtype: bool
+    """
+    move_dic = {"L":0,"R":0,"U":0,"D":0}
+    complements = {"L":"R","U":"D"}
+    for each_move in moves:
+        move_dic[each_move] = move_dic[each_move] + 1
+
+    is_round = True
+    for move in complements:
+        if move_dic.get(move,0) != move_dic.get(complements[move],0):
+            is_round = False
+
+    return is_round
