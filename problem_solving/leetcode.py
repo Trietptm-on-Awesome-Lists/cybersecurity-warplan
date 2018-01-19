@@ -74,3 +74,25 @@ def selfDividingNumbers(self, left, right):
               list_of_self_div.append(number)
 
   return list_of_self_div
+
+
+#18-1-18
+# Swap values SQL
+UPDATE salary SET sex =
+        CASE WHEN sex = 'm'
+        THEN 'f'
+        ELSE 'm'
+        END
+# sum of pairs to be max. O(n log n)
+def arrayPairSum(self, nums):
+      """
+      :type nums: List[int]
+      :rtype: int
+      """
+      sorted_array = sorted(nums)
+      pairs_sum = 0
+      for i in range(0,len(sorted_array) - 1,2):
+          pairs_sum += sorted_array[i]
+
+      return pairs_sum
+        
