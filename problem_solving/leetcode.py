@@ -95,4 +95,14 @@ def arrayPairSum(self, nums):
           pairs_sum += sorted_array[i]
 
       return pairs_sum
-        
+ 
+#19-1-18
+def findComplement(self, num):
+    """
+    :type num: int
+    :rtype: int
+    """
+    bin_rep = bin(num)
+    comp_bin_rep = str(bin_rep[:2]) + ''.join([str(1 - int(n)) for n in bin_rep[2:]])
+    comp_num = int(comp_bin_rep,2)
+    return comp_num
