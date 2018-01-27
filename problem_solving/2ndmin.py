@@ -10,6 +10,5 @@ for x in y:
     elif x < min_2:
         min_2 = x
 
-
 print(min_2)
 print(min_1)

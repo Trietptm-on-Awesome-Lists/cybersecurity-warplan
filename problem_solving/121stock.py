@@ -3,6 +3,7 @@ def maxProfit(prices):
     :type prices: List[int]
     :rtype: int
     """
+
     # diff = 0
     # i = 0
     # while i < len(prices):
