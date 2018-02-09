@@ -8,7 +8,6 @@ class Solution:
         s_counter = 0
         t_counter = 0
         while s_counter < len(s) and t_counter < len(t):
-            print("here")
             if s[s_counter] == t[t_counter]:
                 s_counter += 1
             t_counter  += 1
