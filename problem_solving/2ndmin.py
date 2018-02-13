@@ -1,4 +1,3 @@
-
 min_1, min_2 = float("inf"),float("inf")
 
 y = [1,2,3,4,5,-1,6,7]
