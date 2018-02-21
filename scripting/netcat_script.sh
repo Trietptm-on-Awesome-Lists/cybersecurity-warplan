@@ -39,15 +39,6 @@ echo "PORT "$PORT
 echo "TIMER "$TIMEOUT
 echo "RANGE "$RANGE
 echo "SUBNET "$SUBNET
-##############
-
-# IP=(${BASEURL//./ })
-# echo "-------------"
-# for i in "${IP[@]}"
-# do
-#    echo $i
-#    # do whatever on $i
-# done
 
 IFS=. read -r i1 i2 i3 i4 <<< $BASEURL
 IFS=. read -r m1 m2 m3 m4 <<< $SUBNET
@@ -55,7 +46,7 @@ VAL= $("%d.%d.%d.%d" "$((i1 & m1))" "$((i2 & m2))" "$((i3 & m3))" "$((i4 & m4))"
 echo $VAL
 while [[ $i -le $RANGE ]]
 do
-  RESPONSE= $(nc -zv -w2 $BASEURL$i 22)
+  RESPONSE= $(nc -zv -w2 $BASEURL$i 80)
   if [ "$RESPONSE" = 0 ]; then
     echo "SUCCESS"
   else
