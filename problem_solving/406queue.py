@@ -1,22 +1,7 @@
-class Solution(object):
-    def reconstructQueue(self, people):
-        if not people: return []
+def reconstruct_q(people):
+        # [[7,0], [4,4], [7,1], [5,0], [6,1], [5,2]]
+        # Output:
+        # [[5,0], [7,0], [5,2], [6,1], [4,4], [7,1]]
 
-        peopledct, height, res = {}, [], []
-
-        for i in xrange(len(people)):
-            p = people[i]
-            if p[0] in peopledct:
-                peopledct[p[0]] += (p[1], i),
-            else:
-                peopledct[p[0]] = [(p[1], i)]
-                height += p[0],
-
-        height.sort()
-
-        for h in height[::-1]:
-            peopledct[h].sort()
-            for p in peopledct[h]:
-                res.insert(p[0], people[p[1]])
-
-        return res
+p = [[7,0], [4,4], [7,1], [5,0], [6,1], [5,2]]
+reconstruct_q(p)
